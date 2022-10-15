@@ -12,7 +12,7 @@ let carrito = []
 
 let seleccion = prompt("Hola, desea ver la lista de productos? (si o no)");
 
-while(seleccion != "si" && "no" && seleccion != "no"){
+while(seleccion != "si" && seleccion != "no"){
     alert("Por favor ingresa si o no");
     seleccion = prompt("Hola desea seleccionar algun producto si o no");
 }
